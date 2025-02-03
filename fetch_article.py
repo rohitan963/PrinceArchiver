@@ -31,7 +31,7 @@ def fetch_article(url):
     }
 
 if __name__ == '__main__':
-    url = input("Enter the article URL: ")
+    url = input("Enter the article URL please: ")
     article = fetch_article(url)
     if article:
         print("Title:", article['title'])
