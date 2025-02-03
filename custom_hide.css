@@ -1,0 +1,14 @@
+/* Hide footer */
+footer.bg-light.mt-4.py-4.w-100.mb-0 {
+    display: none !important;
+}
+
+div.promo-bar.mb-4.py-2.mt-lg-n4.mt-0.border-bottom.border-dark{
+    display: none !important;
+}
+
+div.row.align-items-center.my-4.border-top.border-bottom.py-2 {
+    display: none !important;
+}
+
+

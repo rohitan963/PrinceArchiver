@@ -12,7 +12,8 @@ def create_pdf_from_url(url, filename="article.pdf"):
         'custom-header-propagation': '',
         'print-media-type': '',
         'load-error-handling': 'ignore',      # ignore errors when loading content
-        'load-media-error-handling': 'ignore'   # ignore errors for media content
+        'load-media-error-handling': 'ignore',   # ignore errors for media content
+        'user-style-sheet': "C:\\Users\\User\\Documents\\ArchiverProject\\custom_hide.css"
     }
     try:
         pdfkit.from_url(url, filename, options=options, configuration=config)
